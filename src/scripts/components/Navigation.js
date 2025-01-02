@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useNavigate } from 'react-router-dom';
 import {
-  MdMenu,
+  MdOutlineShortText,
   MdOutlineDarkMode,
   MdOutlineLightMode,
   MdTranslate,
@@ -11,9 +11,9 @@ import {
   MdFavoriteBorder,
   MdPersonAddAlt1,
   MdSend,
-  MdShoppingCart,
-  MdChatBubble,
-  MdNotificationsActive,
+  MdOutlineShoppingCart,
+  MdOutlineSend,
+  MdOutlineNotificationsActive,
 } from 'react-icons/md';
 import { TbHome } from 'react-icons/tb';
 import Drawer from 'react-modern-drawer';
@@ -46,7 +46,7 @@ function Navigation({ logout }) {
               ? <Link aria-label='Add to favorite page' className='' to='/archived'><MdFavoriteBorder /></Link>
               : <Link aria-label='Add to home page' className='' to='/'><TbHome /></Link>
           } */}
-          <button onClick={toggleDrawer}><MdMenu /></button>
+          <button onClick={toggleDrawer}><MdOutlineShortText /></button>
           <Drawer
             open={isOpen}
             onClose={toggleDrawer}
@@ -99,13 +99,13 @@ function Navigation({ logout }) {
             <MdOutlineLogout />
           </button> */}
           <button aria-label='Add to change language' onClick={() => console.log('shop')}>
-            <MdShoppingCart />
+            <MdOutlineShoppingCart />
           </button>
           <button aria-label='Add to dark mode' onClick={() => console.log('chat')}>
-            <MdChatBubble />
+            <MdOutlineSend />
           </button>
           <button aria-label='Add to logout' onClick={notifications}>
-            <MdNotificationsActive />
+            <MdOutlineNotificationsActive />
           </button>
         </div>
       </nav>
