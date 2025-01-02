@@ -100,8 +100,8 @@ module.exports = {
         //   canPrint: true
         // }),
         new WebpackPwaManifest({
-          name: 'HeyCa Projects',
-          short_name: 'HeyCa',
+          name: 'HeyCa!! Special 17th',
+          short_name: 'HeyCa!!',
           start_url: '.',
           description: 'HeyCa!! Project Special 17th Birthday Gift',
           background_color: '#ffffff',
