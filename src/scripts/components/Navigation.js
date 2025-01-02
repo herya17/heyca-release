@@ -14,8 +14,6 @@ import {
   MdShoppingCart,
   MdChatBubble,
   MdNotificatioacMdNotificationsActive,
-  MdShoppingCart,
-  MdMenu,
 } from 'react-icons/md';
 import { TbHome } from 'react-icons/tb';
 import Drawer from 'react-modern-drawer';
