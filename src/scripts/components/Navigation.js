@@ -13,7 +13,7 @@ import {
   MdSend,
   MdShoppingCart,
   MdChatBubble,
-  MdNotificatioacMdNotificationsActive,
+  MdNotificationsActive,
 } from 'react-icons/md';
 import { TbHome } from 'react-icons/tb';
 import Drawer from 'react-modern-drawer';
