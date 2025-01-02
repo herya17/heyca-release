@@ -14,7 +14,6 @@ import {
   MdShoppingCart,
   MdChatBubble,
   MdNotificatioacMdNotificationsActive,
-  MdChatBubble,
   MdShoppingCart,
   MdMenu,
 } from 'react-icons/md';
