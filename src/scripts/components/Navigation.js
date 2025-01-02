@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useNavigate } from 'react-router-dom';
 import {
-  MdOutlineShortText,
+  MdOutlineMenu,
   MdOutlineDarkMode,
   MdOutlineLightMode,
   MdTranslate,
@@ -46,7 +46,7 @@ function Navigation({ logout }) {
               ? <Link aria-label='Add to favorite page' className='' to='/archived'><MdFavoriteBorder /></Link>
               : <Link aria-label='Add to home page' className='' to='/'><TbHome /></Link>
           } */}
-          <button onClick={toggleDrawer}><MdOutlineShortText /></button>
+          <button onClick={toggleDrawer}><MdOutlineMenu /></button>
           <Drawer
             open={isOpen}
             onClose={toggleDrawer}
